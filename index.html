@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="flex-wrap">
+      <div class="field-wrap">
+        <label for="min-num" min="1">Enter initial number:</label>
+        <input type="number" id="min-num" required />
+      </div>
+      <div class="field-wrap">
+        <label for="max-num">Enter maximal number:</label>
+        <input type="number" id="max-num" required />
+      </div>
+      <button class="btn">Create table for me!</button>
+      <p class="valid-p">Enter values</p>
+    </div>
+    <div class="table-wrap"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
