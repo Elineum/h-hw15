@@ -67,3 +67,5 @@ btn.addEventListener("click", (e) => {
     renderTable(minValue, maxValue);
   }
 });
+
+renderTable(1, 10); //default render 10x10
